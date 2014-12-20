@@ -58,7 +58,7 @@ int Element_O2::update(UPDATE_FUNC_ARGS)
 				if (!r)
 					continue;
 
-				if ((r&0xFF)==PT_FIRE)
+				if ((r&0xFF)==PT_FIRE)//0xFF,16进制数
 				{
 					parts[r>>8].temp+=(rand()%100);
 					if(parts[r>>8].tmp&0x01)
