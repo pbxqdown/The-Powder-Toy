@@ -1,6 +1,6 @@
 #include "simulation/Elements.h"
 //#TPT-Directive ElementClass Element_O2 PT_O2 61
-Element_O2::Element_O2()
+Element_O2::Element_O2()//attribute of elements
 {
 	Identifier = "DEFAULT_PT_O2";
 	Name = "OXYG";
